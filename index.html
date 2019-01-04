@@ -1,3 +1,219 @@
-<!DOCTYPE html><html lang="null"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description"><title>天宇的博客</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/normalize/7.0.0/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/pure-min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">天宇的博客</h1><a id="logo" href="/.">天宇的博客</a><p class="description"></p></div><div id="nav-menu"><a href="/." class="current"><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div id="layout" class="pure-g"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title"><a href="/2017/09/24/hello/">no-title</a></h1><div class="post-meta">2017-09-24</div><div class="post-content"><hr>
-<p>title: hello<br>date: 2017-09-24 14:33:19<br>tags:<br>—hello</p>
-<p>摘要:<br></div><p class="readmore"><a href="/2017/09/24/hello/">Mehr lesen</a></p></div><div class="post"><h1 class="post-title"><a href="/2017/09/24/hello-world/">Hello World</a></h1><div class="post-meta">2017-09-24</div><div class="post-content"><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p></div><p class="readmore"><a href="/2017/09/24/hello-world/">Mehr lesen</a></p></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><form action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank" class="search-form"><input type="text" name="q" maxlength="20" placeholder="Search"/><input type="hidden" name="sitesearch" value="https://mstianyu.github.io"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> Kategorien</i></div></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> Tags</i></div><div class="tagcloud"></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> Letzte</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2017/09/24/hello/">hello</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/09/24/hello-world/">Hello World</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> Blogroll</i></div><ul></ul><a href="http://www.example1.com/" title="site-name1" target="_blank">site-name1</a><ul></ul><a href="http://www.example2.com/" title="site-name2" target="_blank">site-name2</a><ul></ul><a href="http://www.example3.com/" title="site-name3" target="_blank">site-name3</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2017 <a href="/." rel="nofollow">天宇的博客.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a id="rocket" href="#top" class="show"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.bootcss.com/fancybox/3.1.20/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/fancybox/3.1.20/jquery.fancybox.min.css"><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html>
+<!DOCTYPE html>
+<html lang="zh-Hans-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width" />
+    <title>首页模板</title>
+    <link href="layui/css/layui.css" rel="stylesheet" type="text/css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/index_style.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="menu" class="hover_animation menu_open" data-mark="false">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div id="navgation" class="navgation navgation_close">
+        <ul class="point">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">博客</a></li>
+            <li><a href="#">留言</a></li>
+        </ul>
+        <div class="logo"><a>Mr.Yss</a></div>
+    </div>
+    <div class="section" id="section1">
+        <div class="fp-tablecell">
+            <div class="page1">
+                <div class="nav wow zoomIn" data-wow-duration="3s">
+                    <h1 style="font-size:30px">孤燕十三</h1>
+                    <p style="font-size:20px">剑气纵横三万里,一剑光寒十九洲</p>
+                    <a class="layui-btn layui-btn-normal" style="margin-top: 20px" href="#">Enter Blog</a>
+                </div>
+                <a class="next wow fadeInUp" data-wow-duration="3s" id="next"></a>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section2">
+        <div class="fp-tablecell">
+            <div class="page2">
+                <div class="warp-box">
+                    <div class="new-article">
+                        <div class="inner wow fadeInDown" data-wow-delay=".2s">
+                            <h1>热门文章</h1>
+                            <p>
+                                很想给你写封信,告诉你这里的天气.
+                                <br>昨夜的那场电影,还有我的心情.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="layui-row">
+                        <div class="layui-col-xs12 layui-col-sm4 layui-col-md4  wow fadeInUp" style="padding: 0 10px">
+                            <div class="single-news">
+                                <div class="news-head">
+                                    <img src="image/1.jpg">
+                                    <a href="#" class="link"><i class="fa fa-link"></i></a>
+                                </div>
+                                <div class="news-content">
+                                    <h4>
+                                        <a href="#">
+                                            标题
+                                        </a>
+                                    </h4>
+                                    <div class="date">
+                                        2017年2月16日
+                                    </div>
+                                    <p>
+                                        很想给你写封信,告诉你这里的天气. 昨夜的那场电影,还有我的心情.
+                                    </p>
+                                    <a href="#" class="btn">
+                                        阅读更多 
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layui-col-xs12 layui-col-sm4 layui-col-md4  wow fadeInUp" data-wow-delay=".2s" style="padding: 0 10px">
+                            <div class="single-news">
+                                <div class="news-head">
+                                    <img src="image/1.jpg">
+                                    <a href="#" class="link"><i class="fa fa-link"></i></a>
+                                </div>
+                                <div class="news-content">
+                                    <h4>
+                                        <a href="#">
+                                            标题
+                                        </a>
+                                    </h4>
+                                    <div class="date">
+                                        2017年2月16日
+                                    </div>
+                                    <p>
+                                        很想给你写封信,告诉你这里的天气. 昨夜的那场电影,还有我的心情.
+                                    </p>
+                                    <a href="#" class="btn">
+                                        阅读更多 
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layui-col-xs12 layui-col-sm4 layui-col-md4  wow fadeInUp" data-wow-delay=".4s" style="padding: 0 10px">
+                            <div class="single-news">
+                                <div class="news-head">
+                                    <img src="image/1.jpg">
+                                    <a href="#" class="link"><i class="fa fa-link"></i></a>
+                                </div>
+                                <div class="news-content">
+                                    <h4>
+                                        <a href="#">
+                                            标题
+                                        </a>
+                                    </h4>
+                                    <div class="date">
+                                        2017年2月16日
+                                    </div>
+                                    <p>
+                                        很想给你写封信,告诉你这里的天气. 昨夜的那场电影,还有我的心情.
+                                    </p>
+                                    <a href="#" class="btn">
+                                        阅读更多 
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section3">
+        <div class="fp-tablecell">
+            <div class="page3">
+                <div class="warp-box">
+                    <div class="warp">
+                        <div class="inner">
+                            <div class="links">
+                                <ul>
+                                    <li class="wow fadeInLeft"><a href="#">关于</a></li>
+                                    <li class="wow fadeInRight"><a href="#">+友情链接</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section4">
+        <div class="fp-tablecell">
+            <div class="page4">
+                <div class="warp-box">
+                    <div class="about">
+                        <div class="inner">
+                            <h1 class="wow fadeInLeft">次元使者</h1>
+                            <p class="wow fadeInRight">
+                                爱好游戏，动漫。闲来无事喜欢在一些不健康的场所虚度光阴，撸起代码就会废寝忘食。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer wow fadeInUp" id="contact">
+        <div class="footer-top">
+            <div class="container">
+                <div class="layui-row">
+                    <div class="layui-col-xs12 layui-col-sm6 layui-col-md4">
+                        <div class="single-widget about">
+                            <div class="footer-logo">
+                                <h2>燕十三</h2>
+                            </div>
+                            <p>剑气纵横三万里，一剑光寒十九洲。</p>
+                            <div class="button">
+                                <a href="#" class="btn layui-btn layui-btn-normal">About Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layui-col-xs12 layui-col-sm6 layui-col-md4">
+                        <div class="single-widget">
+                            <h2>相关链接</h2>
+                            <ul class="social-icon">
+                                <li class="active"><a href="#"><i class="fa fa-book"></i>博文</a></li>
+                                <li class="active"><a href="#"><i class="fa fa-comments"></i>留言</a></li>
+                                <li class="active"><a href="#"><i class="fa fa-share"></i>资源</a></li>
+                                <li class="active"><a href="#"><i class="fa fa-snowflake-o"></i>日记</a></li>
+                                <li class="active"><a href="#"><i class="fa fa-files-o"></i>归档</a></li>
+                            </ul>                   
+                        </div>
+                    </div>
+                    <div class="layui-col-xs12 layui-col-sm12 layui-col-md4">
+                        <div class="single-widget contact">
+                            <h2>联系我</h2>
+                            <ul class="list">
+                                <li><i class="fa fa-map"></i>地址: 四川成都金牛区金科北路39号</li>
+                                <li><i class="fa fa-qq"></i>QQ: 930054439 </li>
+                                <li><i class="fa fa-envelope"></i>邮箱: 930054439@qq.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="layui-row">
+                    <div class="layui-col-xs12 layui-col-sm12 layui-col-md12 text-center">
+                        <p>Copyright &copy; 2018-2018 燕十三 All Rights Reserved V.3.1.3 蜀ICP备18008600号</p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </footer>
+    <script src="layui/layui.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
